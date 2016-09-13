@@ -1,0 +1,16 @@
+﻿
+
+Ejercicio #2: PROMEDIO DE 3 NÚMEROS
+Escriba un algoritmo que pregunte por 3 números y muestre como resultado el promedio de estos.
+Use Pseudocódigo y diagrama de flujo.
+
+Variables: Número a, Número b, Número c.
+INICIO
+Entrada: Número a
+Entrada: Número b
+Entrada: Número c
+Proceso: prom=(a+b+c)/N (en este caso 3)
+Pantalla: prom
+FIN
+
+Salida: Cobro

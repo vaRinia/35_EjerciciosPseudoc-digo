@@ -1,0 +1,13 @@
+﻿
+Ejercicio #9: LLAMADA TELEFÓNICA
+Se requiere un algoritmo para determinar el costo que tendrá realizar una llamada telefónica con base en el tiempo que dura la llamada y en el costo por minuto.
+Represente la solución mediante el diagrama de flujo y pseudocódigo.
+
+variables: minutos, segundos, costo por minuto
+INICIO
+Entrada: Minutos
+Entrada: Segundos
+Entrada: Costo por minuto
+Proceso: Cobro = (minutos+(segundos/60))*costo por minuto ------ redondear a una décima
+Salida: Cobro
+

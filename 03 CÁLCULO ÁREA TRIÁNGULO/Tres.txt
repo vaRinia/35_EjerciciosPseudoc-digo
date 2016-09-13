@@ -1,0 +1,13 @@
+﻿
+Ejercicio #3: CÁLCULO AREA DE UN TRIÁNGULO
+Escriba un algoritmo que permita conocer el área de un triángulo a partir de la base y la altura.
+Exprese el algoritmo usando Pseudocódigo y diagrama de flujo
+
+Variables: base, altura
+INICIO
+Entrada: base
+Entrada: altura
+Proceso: area= (base*altura)/2
+Pantalla: area
+FIN
+

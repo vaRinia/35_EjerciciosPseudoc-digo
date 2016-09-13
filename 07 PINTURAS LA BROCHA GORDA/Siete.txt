@@ -1,0 +1,14 @@
+﻿
+Ejercicio #7: PINTURAS "LA BROCHA GORDA"
+Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. 
+Considere que se cobra por m2 y realice un diagramade flujo y pseudocódigo que representen el algoritmo 
+que le permita ir generando presupuestos para cada cliente.
+
+variables: m2, precio
+INICIO
+Entrada: m2 por pintar
+Entrada: precio por metro cuadraro
+Proceso: presupuesto=m2 por precio por m2
+Salida: presupuesto
+
+

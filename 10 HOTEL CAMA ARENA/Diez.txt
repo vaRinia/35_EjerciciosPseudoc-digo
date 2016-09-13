@@ -1,0 +1,11 @@
+﻿
+Ejercicio #10: Hotel “Cama Arena”
+El hotel “Cama Arena” requiere determinar lo que le debe cobrar a un huésped por su estancia en una de sus habitaciones.
+Realice un diagrama de flujo y pseudocódigo que representen el algoritmo para determinar ese cobro.
+
+variables: días, costo por día
+INICIO
+Entrada: Días de estancia
+Entrada: Costo por día de la habitación
+Proceso: Cobro=días de estancia por el costo por día de la habitación elegida
+Salida: Cobro

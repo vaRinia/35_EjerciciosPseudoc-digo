@@ -1,0 +1,13 @@
+﻿
+Ejercicio #8: AUTOBUSES "LA CURVA LOCA"
+La compañía de autobuses “La curva loca” requiere determinar el costo que tendrá el boleto de un viaje sencillo, 
+esto basado en los kilómetros por recorrer y en el costo por kilómetro.
+Realice un diagrama deflujo y pseudocódigo que representen el algoritmo para tal fin
+
+variables: kilómetros de viaje, costo por kilómetro
+INICIO
+Entrada: kilómetros
+Entrada: Costo por km
+Proceso: boleto=kilómetro por costo unitario
+Salida: boleto
+

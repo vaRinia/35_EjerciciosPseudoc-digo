@@ -1,0 +1,16 @@
+﻿
+
+Ejercicio #5: SUELDO
+Se requiere determinar el sueldo semanal de un trabajador con base en las horas que trabaja y el pago por hora que recibe.
+Realice el diagrama de flujo y el pseudocódigo que representen el algoritmo de solución correspondiente.
+
+variables: horas trabajadas, pago-hora
+INICIO
+Entrada: hrs
+Entrada: pago-hr
+Proceso: sueldo semanal es igual a las horas trabajadas por el pago por hora, 
+no se consideran los días de la semana porque es posible que no se trabajen las mismas
+horas todos los dias.
+Salida: s-sem
+
+
