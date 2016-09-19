@@ -1,0 +1,24 @@
+﻿
+Ejercicio #9: HAMBURGUESAS “El náufrago satisfecho”
+“El náufrago satisfecho” ofrece hamburguesas
+SENCILLAS $ 20.00
+DOBLES $ 25.00
+TRIPLES $ 28.00
+La empresa acepta 
+tarjetas de crédito con un cargo de 5 % sobre la compra. Suponiendo que los clientes adquieren sólo un tipo de hamburguesa, realice un algoritmo para determinar 
+cuánto debe pagar una persona por N hamburguesas.
+Represéntelo mediante diagrama de flujo y pseudocódigo
+
+
+
+variables: Número de hamburguesas, tipo
+INICIO
+Entrada: Número de hamburguesas, tipo
+Decisión: Tipo = s
+	Verdadero: Proceso: costo = número de hamburguesas por 20
+	Falso: Decisión: Tipo = d
+		Verdadero: Proceso: Costo = número de hamburguesas por 25
+		Falso: Proceso: Costo = número de hamburguesas por 28
+Proceso: Total = costo por 1.05
+Display: Total
+FIN

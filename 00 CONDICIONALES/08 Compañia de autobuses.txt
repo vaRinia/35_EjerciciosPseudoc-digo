@@ -1,0 +1,32 @@
+﻿Ejercicio #8: COMPAÑIA DE AUTOBUSES
+Una compañía de viajes cuenta con tres tipos de autobuses (A, B y C), cada uno tiene un precio por kilómetro recorrido por persona,
+A $ 2.00
+B $ 2.50
+C $ 3.00
+Se requiere determinar el costo total y por persona del viaje considerando que cuando éste se presupuesta debe haber un mínimo de 20 personas, de lo contrario 
+el cobro se realiza con base en este número límite.
+
++++++ Puede escogerse desde un inicio el tipo de autobús o que el algoritmo arroje los tres costos. optaré por la primera opción para usar condicionales 
+en el algoritmo:
+
+variables: personas, kilómetros, tipo
+INICIO
+Entrada: personas, km, tipo
+Decisión: personas > 19
+	Falso: Proceso: p-km = 20 por kilómetros -----> lleva a la decisión
+	Verdadero: Proceso: p-km = personas por kilómetros
+Decisión: tipo = a
+	Verdadero: Proceso: costo total = p-km por 2
+	Falso: decisión: Tipo = b
+		Verdadero: Proceso: Costo total = p-km por 2.5
+		Falso: Aquí podemos poner una tercera decisión tipo = c para asegurar que se hayan introducido bien los datos o dar por hecho que, al ser
+			falsas las declaraciones anteriores, c es la correcta. si optamos por esta última opción entonces, 
+			Proceso: Costo total = p-km por 3
+Las tres decisiones verdaderas nos llevan a
+Proceso: Costo por persona = costo total entre personas
+Display: costo total, costo por persona
+FIN
+
+
+
+

@@ -1,0 +1,18 @@
+﻿
+
+Ejercicio #2: ¿CUÁL ES EL NÚMERO MAS GRANDE?
+Se desea implementar un algoritmo para determinar cuál de dos valores proporcionados es el mayor.
+Representarlo con pseudocódigo y diagrama de flujo
+
+Variables: Número a, número b
+INICIO
+Entrada: Número a
+Entrada: Número b
+Decisión: Hacer la comparación entre ambos números: A mayor a B
+	Si es verdadero: display "A es el mayor"
+	Si es falso: 
+		Hacer comparación: A es igual a B
+		Si es verdadero: display "Son iguales"
+		Si es falso: display "B es el mayor"
+FIN
+

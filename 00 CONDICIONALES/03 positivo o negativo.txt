@@ -1,0 +1,14 @@
+﻿
+Ejercicio #3: POSITIVO O NEGATIVO
+Realice un algoritmo para determinar si un número es positivo o negativo.
+Represéntelo en pseudocódigo y diagrama de flujo
+
+Variables: Número a,
+INICIO
+Entrada: Número a
+Decisión: Hacer la comparación-- A>=0 
+	Si es verdadero: Display "El número es positivo" 
+	Si es falso: Display "El número es negativo"
+FIN
+
+

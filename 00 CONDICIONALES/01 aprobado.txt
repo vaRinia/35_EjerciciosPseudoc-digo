@@ -1,0 +1,17 @@
+﻿EJERCICIOS: CONDICIONALES SIMPLES Y CONDICIONALES MÚLTIPLES
+Ejercicio #1: APROBADO O REPROBADO
+Se pide leer tres notas de un alumno. Obtener su nota en un rango de 1 al 10 y enviar un mensaje donde diga si el alumno aprobó o reprobó el curso 
+(tomar en cuenta que si obtiene 6 o más aprueba, de lo contrario no)
+Exprese el algoritmo usando Pseudocódigo y diagrama de flujos.
+
+Variables: Número a, Número b, Número c.
+INICIO
+Entrada: Número a
+Entrada: Número b
+Entrada: Número c
+Proceso: prom=(a+b+c)/N (en este caso 3)
+CONDICION: SI prom es mayor o igua a 6: display APROBADO
+           NO : display REPROBADO
+FIN
+
+

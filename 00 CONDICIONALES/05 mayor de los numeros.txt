@@ -1,0 +1,18 @@
+﻿Ejercicio #5: EL MAYOR DE LOS NÚMEROS
+Se requiere determinar cuál de tres cantidades proporcionadas es la mayor.
+Realizar su respectivo algoritmo y representarlo mediante un diagrama de flujo y pseudocódigo
+
+variables: a, b, c
+INICIO
+Entrada: números a, b, c
+Decisión: Hacer comparación: a > b
+	Verdadero : Hacer comparación a > c
+		Verdadero: Display "a es el mayor"
+		Falso: Display "c es el mayor"
+	Falso: Hacer comparación b > c
+		Verdadero: Display: "b es el mayor"
+		Falso: Display: "c es el mayor"
+FIN
+
+
+

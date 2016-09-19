@@ -1,0 +1,23 @@
+﻿Ejercicio #7: VIAJE ESCOLAR
+El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de 
+viajes por el servicio. La forma de cobrar es la siguiente: 
+si son 100 alumnos o más, el costo por cada alumno es de $65.00; 
+de 50 a 99 alumnos, el costo es de $70.00, 
+de 30 a 49, de $95.00, 
+y si son menos de 30, el costo de la renta del autobús es de $4,000.00, sin importar el número de alumnos.
+Realice un algoritmo que permita determinar el pago a la compañía de autobuses y lo que debe pagar cada alumno por el viaje (represente en pseudocódigo y diagrama 
+de flujo)
+
+variables: número de alumnos (alum), costo por alumno (c-alum), costo total (c-total)
+INICIO
+ENTRADA: número de alumnos
+Decisión: alumnos > 30
+	Falso: Costo por alumno = 4,000 / alumnos
+	Verdadero: Decisión: alumnos > 49
+		Falso: Costo por alumno = 95
+		Verdadero: Decisión: alumnos > 99
+			Falso: Costo por alumno = 70
+			Verdadero: Costo por alumno = 65
+Proceso: Costo total = costo por alumno * alumnos
+Display: costo total, costo por alumno
+FIN
