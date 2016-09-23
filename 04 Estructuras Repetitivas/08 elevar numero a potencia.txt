@@ -1,0 +1,5 @@
+﻿
+Ejercicio #8: ELEVAR UN NUMERO ENTERO A LA "N" POTENCIA
+Realizar el diagrama de flujo y pseudocodigo de un programa que permita elevar un número entero ingresado por teclado, a una potencia dada.
+
+

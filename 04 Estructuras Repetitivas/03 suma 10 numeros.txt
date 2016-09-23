@@ -1,43 +1,4 @@
-﻿﻿Ejercicio #1: SUMA 10 NUMEROS CICLO WHILE
-Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo “WHILE”.
-Realice el diagrama de flujo y el pseudocódigo
-
-var contador
-var numero
-var suma
-INICIO
-asignar contador=1
-MIENTRAS contador<=10
-		introducir numero
-		proceso: suma=suma+numero	
-		proceso: contador=contador+1
-FALSO: Display "La suma es", suma
-FIN
-
-
-
-
-
-Ejercicio #2: SUMA 10 NUMEROS CICLO DO...WHILE
-Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo DO...WHILE.
-Realice el diagrama de flujo y el pseudocódigo.
-
-var contador=1
-var suma=0
-var numero
-INICIO
-asignar contador=1
-HACER	introducir numero
-	proceso: suma es igual a suma+numero
-	proceso: contador es igual a contador++
-	display: "La suma es", suma
-MIENTRAS contador es <=10 
-FIN
-		
-
-
-
-Ejercicio #3: SUMA 10 NUMEROS CICLO FOR
+﻿Ejercicio #3: SUMA 10 NUMEROS CICLO FOR
 Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo FOR.
 Realice el diagrama de flujo, el pseudocódigo
 

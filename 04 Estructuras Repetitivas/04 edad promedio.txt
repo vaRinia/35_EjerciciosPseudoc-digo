@@ -1,0 +1,43 @@
+﻿Ejercicio #4: EDAD PROMEDIO
+Se requiere un algoritmo para obtener la edad promedio de un grupo de 'N' alumnos.
+Realice el diagrama de flujo Y el pseudocódigo para representarlo, utilizando los tres tipos de estructuras de ciclo.
+
+---- 
+DO WHILE
+var edad
+var i
+var promedio
+var suma
+
+INICIO
+Display "introducir edad"
+leer edad
+HACER 	proceso: i=i++
+	proceso: promedio=(suma+edad)/i
+	Display: "Promedio de edad:", promedio
+	Display: "Numero de alumnos:",i
+	Display: "Introducir edad"
+	Leer edad
+MIENTRAS edad>0
+FIN
+------------
+FOR-- WHILE
+
+var edad
+var i
+var promedio
+var suma
+
+INICIO
+Asignar contador=1
+Display "Introducir numAlumnos"
+Leer edad
+MIENTRAS  i =< numAlumnos
+	Display "Introducir edad"
+	Leer edad
+	suma=suma+edad
+	i=i++
+Falso: Proceso: promedio=suma/numAlumnos
+	Display: "El promedio de edades es", promedio
+FIN
+-------------------------

@@ -1,0 +1,25 @@
+﻿Ejercicio #10: CUBO Y CUARTA DE UN NUMERO
+Leer 10 números y obtener su cubo y su cuarta.
+
+var contador
+var numero
+var cubo
+var cuarta
+INICIO
+HACER
+	Ingresar numero
+	Leer numero
+	Proceso: contador=contador++
+	Proceso: cubo=numero*numero*numero
+	Proceso: cuarta=numero*numero*numero*numero
+	Display: "Cubo de ", numero, "es ", cubo
+	Display: "Cuarta de ", numero, "es", cuarta
+MIENTRAS
+	contador<=10
+FIN
+ 
+
+
+
+
+
