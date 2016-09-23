@@ -51,14 +51,60 @@ FIN
 
 Ejercicio #4: EDAD PROMEDIO
 Se requiere un algoritmo para obtener la edad promedio de un grupo de 'N' alumnos.
-Realice el diagrama de flujo Y el pseudocódigo para representarlo, utilizando los tres tipos de estructuras de ciclo
+Realice el diagrama de flujo Y el pseudocódigo para representarlo, utilizando los tres tipos de estructuras de ciclo.
 
-var
+---- 
+DO WHILE
+var edad
+var i
+var promedio
+var suma
 
+INICIO
+Display "introducir edad"
+leer edad
+HACER 	proceso: i=i++
+	proceso: promedio=(suma+edad)/i
+	Display: "Promedio de edad:", promedio
+	Display: "Numero de alumnos:",i
+	Display: "Introducir edad"
+	Leer edad
+MIENTRAS edad>0
+FIN
+------------
+FOR-- WHILE
+
+var edad
+var i
+var promedio
+var suma
+
+INICIO
+Asignar contador=1
+Display "Introducir numAlumnos"
+Leer edad
+MIENTRAS  i =< numAlumnos
+	Display "Introducir edad"
+	Leer edad
+	suma=suma+edad
+	i=i++
+Falso: Proceso: promedio=suma/numAlumnos
+	Display: "El promedio de edades es", promedio
+FIN
+-------------------------
 
 Ejercicio #5: NUMEROS PARES DEL 0-100
 Realice un algoritmo para generar e imprimir los números pares que se encuentran entre 0 y 100.
 Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado
+
+var suma
+
+INICIO
+asignar i=0
+HACER   Display: i
+	Proceso: i=i+2
+MIENTRAS i<=100
+FIN
 
 
 
@@ -67,6 +113,11 @@ Un triangulo rectángulo puede tener lados que sean todos enteros. El conjunto d
 se conoce como una terna pitagórica. Estos tres lados deben satisfacer la relación de que la suma de los cuadrados de dos lados es 
 igual al cuadrado de la hipotenusa. Encuentre todas las ternas de Pitágoras para el cateto opuesto, cateto adyacente e hipotenusa, 
 todos ellos no mayores de 500.
+
+
+
+
+
 
 
 Ejercicio #7: TABLAS DE MULTIPLICAR
@@ -80,6 +131,8 @@ Realizar el diagrama de flujo y pseudocodigo de un programa que permita elevar u
 Ejercicio #9: CALIFICACIONES ALUMNOS
 Suponga que se tiene las calificaciones de un grupo de 40 alumnos.
 Realizar un algoritmo para calcular la calificación media y la calificación más baja de todo el grupo.
+
+
 
 
 Ejercicio #10: CUBO Y CUARTA DE UN NUMERO
