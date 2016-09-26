@@ -18,9 +18,8 @@ para(conth=5, hasta conth<=500, entonces conth=contb++)
 			para(contb=3, hasta contb<=500, entonces contb=contb++)
 			b=contb * contb
 		
-			teorema=a + b
-			si (teorema=h) entonces
-			"escribe terna pitagótica", "hipotenusa=", conth, "a=", conta, "b=",contb
+			si (h=a+b) entonces
+			escribe "terna pitagótica", "hipotenusa=", conth, "a=", conta, "b=",contb
 			fin
 		fin
 	fin
