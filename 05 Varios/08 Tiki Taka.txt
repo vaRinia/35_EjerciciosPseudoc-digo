@@ -4,20 +4,40 @@ Un empleado de la tienda “Tiki Taka” realiza N ventas durante el día; se re
 • Cuántas fueron mayores a $500 pero menores o iguales a $1000 
 • Cuántas fueron menores o iguales a $500. 
 • Además, se requiere saber el monto de lo vendido en cada categoría y de forma global.
-Realice un algoritmo que permita determinar lo anterior y represéntelo mediante el diagrama de flujo y el pseudocódigoutilizando el ciclo apropiado
+Realice un algoritmo que permita determinar lo anterior y represéntelo mediante el diagrama de flujo y el pseudocódigo utilizando el ciclo apropiado
 
+i contará ventas mayores a >1,000
+j contará ventas entre >500 y <=1,000
+k contará ventas <=500
 
+sumi
+sumj
+sumk
+total
 
+sumi=sumi+v
+sumj=sumj+v
+sumk=sumk+v
+total=sumi+sumj+sumk
+---------
 
-Ejercicio #9: Mensualidades
-Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó $10, el segundo $20, el tercero $40 y así sucesivamente.
-Realice un algoritmo para determinar cuánto debe pagar mensualmente y el total de lo que pagó después de los 20 meses 
-y represéntelo mediante el diagrama de flujo y el pseudocódigo utilizando el ciclo apropiado.
-
-
-
-Ejercicio #10: Tienda de autoservicio
-La cadena de tiendas de autoservicio “El mandilón” cuenta con sucursales en C ciudades diferentes de la República, 
-en cada ciudad cuenta con T tiendas y cada tienda cuenta con N empleados, asimismo, cada una registra lo que vende de manera individual cada empleado, 
-cuánto fue lo que vendió cada tienda, cuánto se vendió en cada ciudad y cuánto recaudó la cadena en un solo día.
-Realice un algoritmo para determinar lo anterior y represéntelo mediante un diagrama de flujo, utilizando el ciclo apropiado.
+var i
+var j
+var k
+INICIO
+Display: "Introducir monto de venta"
+Leer v
+MIENTRAS v>0
+	mientras: v>500
+		mientras: v>=1000
+			i=i+1, sumi=sumi+v
+		Falso: j=j+1, sumj=sumj+v
+	Falso: k=k+1, sumk=sumk+v
+fin del ciclo, regresar a introducir venta
+total=sumi+sumj+sumk
+Display:
+	"Ventas mayores a $1,000", i, "Total", sumi
+	"Ventas mayores a $500 y menores a $1,000", j, "Total", sumj
+	"Ventas menores a $500", k, "Total", sumk
+	"Venta global", total
+FIN

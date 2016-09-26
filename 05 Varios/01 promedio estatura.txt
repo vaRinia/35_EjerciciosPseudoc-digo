@@ -10,10 +10,11 @@ var promedio
 var suma
 
 INICIO
-Display "introducir estatura"
-leer estatura
-HACER 	proceso: i=i++
-	proceso: promedio=(suma+estatura)/i
+HACER
+	Display "introducir estatura"
+	leer estatura
+ 	proceso: i=i++
+	proceso: promedio=suma/i
 	Display: "Promedio de estatura:", promedio
 	Display: "Numero de personas:",i
 	Display: "Introducir estatura"
@@ -21,75 +22,3 @@ HACER 	proceso: i=i++
 MIENTRAS estatura>0
 FIN
 
-
-
-Ejercicio #2: Igual o menos a 0
-Se requiere un algoritmo para determinar, de N cantidades, cuántas son menores o iguales a cero y cuántas mayores a cero. 
-Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado.
-
-var i (acumulará los números menores o iguales a cero)
-var j (acumulará los número mayores a cero)
-numero
-INICIO
-Entrada: numero
-leer numero
-Decisión: numero>=0
-  VERDADERO: proceso i=i+1
-  FALSO: proceso j=j+1
-
-
-Ejercicio #3: Sucesión de Fibonacci
-Realice un algoritmo para generar N elementos de la sucesión de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13,…).
-Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado.
-
-
-
-
-Ejercicio #4: Aguascalientes-Zacatecas
-Una persona se encuentra en el kilómetro 70 de la carretera AguascalientesZacatecas, otra se encuentra en el km 150 de la misma carretera. 
-La primera viaja en dirección a Zacatecas, mientras que la segunda se dirige a Aguascalientes, a la misma velocidad.
-Realice un algoritmo para determinar en qué kilometro de esa carretera se encontrarán y represéntelo mediante el diagrama de flujo 
-y el pseudocódigo utilizando el ciclo apropiado.
-
-
-Ejercicio #5: Ahorro
-Se requiere un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero; además, 
-se requiere saber cuánto lleva ahorrado cada mes.
-Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado
-
-
-Ejercicio #6: Mayores a 0
-Se requiere un algoritmo para determinar, de N cantidades, cuántas son menores o iguales a cero y cuántas mayores a cero.
-Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado.
-
-
-
-Ejercicio #7: Horas de trabajo
-Una empresa tiene el registro de las horas que trabaja diariamente un empleado durante la semana (seis días) y requiere determinar el total de éstas, 
-así como el sueldo que recibirá por las horas trabajadas.
-Realice un algoritmo para determinar esto y represéntelo mediante el diagrama de flujo y el pseudocódigo utilizando el ciclo apropiado.
-
-
-Ejercicio #8: Tiki Taka
-Un empleado de la tienda “Tiki Taka” realiza N ventas durante el día; se requiere saber cuántas de ellas: 
-• Fueron mayores a $1000, 
-• Cuántas fueron mayores a $500 pero menores o iguales a $1000 
-• Cuántas fueron menores o iguales a $500. 
-• Además, se requiere saber el monto de lo vendido en cada categoría y de forma global.
-Realice un algoritmo que permita determinar lo anterior y represéntelo mediante el diagrama de flujo y el pseudocódigoutilizando el ciclo apropiado
-
-
-
-
-Ejercicio #9: Mensualidades
-Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó $10, el segundo $20, el tercero $40 y así sucesivamente.
-Realice un algoritmo para determinar cuánto debe pagar mensualmente y el total de lo que pagó después de los 20 meses 
-y represéntelo mediante el diagrama de flujo y el pseudocódigo utilizando el ciclo apropiado.
-
-
-
-Ejercicio #10: Tienda de autoservicio
-La cadena de tiendas de autoservicio “El mandilón” cuenta con sucursales en C ciudades diferentes de la República, 
-en cada ciudad cuenta con T tiendas y cada tienda cuenta con N empleados, asimismo, cada una registra lo que vende de manera individual cada empleado, 
-cuánto fue lo que vendió cada tienda, cuánto se vendió en cada ciudad y cuánto recaudó la cadena en un solo día.
-Realice un algoritmo para determinar lo anterior y represéntelo mediante un diagrama de flujo, utilizando el ciclo apropiado.

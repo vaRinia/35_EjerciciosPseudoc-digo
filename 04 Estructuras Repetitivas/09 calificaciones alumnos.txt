@@ -2,30 +2,21 @@
 Suponga que se tiene las calificaciones de un grupo de 40 alumnos.
 Realizar un algoritmo para calcular la calificación media y la calificación más baja de todo el grupo.
 
-
-
-
-Ejercicio #10: CUBO Y CUARTA DE UN NUMERO
-Leer 10 números y obtener su cubo y su cuarta.
-
-var contador
-var numero
-var cubo
-var cuarta
+var cal
+var Na
 INICIO
-HACER
-	Ingresar numero
-	Leer numero
-	Proceso: contador=contador++
-	Proceso: cubo=numero*numero*numero
-	Proceso: cuarta=numero*numero*numero*numero
-	Display: "Cubo de ", numero, "es ", cubo
-	Display: "Cuarta de ", numero, "es", cuarta
-MIENTRAS
-	contador<=10
+Asignar: Baja=10, Na=40, cont=1
+PARA cont igual a uno, cont menor igual a Na, cont++
+escribir cal (calificación)
+leer calificación
+suma=suma+cal
+Decisión: Baja mayor a cal
+	VERDADERO: Baja=cal
+		cont=cont+1
+fin del para
+Prom=suma/Na
+Display: "El promedio es", prom, "La calificación más baja es", Baja
 FIN
- 
-
 
 
 

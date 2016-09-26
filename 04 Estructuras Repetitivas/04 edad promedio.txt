@@ -10,16 +10,18 @@ var promedio
 var suma
 
 INICIO
-Display "introducir edad"
-leer edad
-HACER 	proceso: i=i++
-	proceso: promedio=(suma+edad)/i
+HACER
+	Display "introducir edad"
+	leer edad
+ 	proceso: i=i++
+	proceso: promedio=suma/i
 	Display: "Promedio de edad:", promedio
 	Display: "Numero de alumnos:",i
-	Display: "Introducir edad"
-	Leer edad
+	
 MIENTRAS edad>0
 FIN
+------------
+------------
 ------------
 FOR-- WHILE
 
@@ -29,7 +31,7 @@ var promedio
 var suma
 
 INICIO
-Asignar contador=1
+Asignar i=1
 Display "Introducir numAlumnos"
 Leer edad
 MIENTRAS  i =< numAlumnos
@@ -37,7 +39,7 @@ MIENTRAS  i =< numAlumnos
 	Leer edad
 	suma=suma+edad
 	i=i++
-Falso: Proceso: promedio=suma/numAlumnos
-	Display: "El promedio de edades es", promedio
+Proceso: promedio=suma/numAlumnos
+Display: "El promedio de edades es", promedio
 FIN
 -------------------------

@@ -3,52 +3,29 @@ Un triangulo rectángulo puede tener lados que sean todos enteros. El conjunto d
 triángulo rectángulo se conoce como una terna pitagórica. Estos tres lados deben satisfacer la relación de que la suma de los 
 cuadrados de dos lados es igual al cuadrado de la hipotenusa. Encuentre todas las ternas de Pitágoras para el cateto opuesto, 
 cateto adyacente e hipotenusa, todos ellos no mayores de 500.
+-----
+h hipotenusa, a cateto opuesto, b cateto adyacente
+la idea es que para cada h, a, y b se combinen con los 500 números y así deberían salir 125,000,000 combinaciones posibles, las cuáles
+deberán ser comprobadas si son ternas pitagóricas.
+---
 
-
-
-
-
-
-
-Ejercicio #7: TABLAS DE MULTIPLICAR
-Construir la tabla de multiplicar de un número ingresado por teclado, partiendo desde cero.
-
-
-
-
-Ejercicio #8: ELEVAR UN NUMERO ENTERO A LA "N" POTENCIA
-Realizar el diagrama de flujo y pseudocodigo de un programa que permita elevar un número entero ingresado por teclado, a una potencia dada.
-
-
-
-
-Ejercicio #9: CALIFICACIONES ALUMNOS
-Suponga que se tiene las calificaciones de un grupo de 40 alumnos.
-Realizar un algoritmo para calcular la calificación media y la calificación más baja de todo el grupo.
-
-
-
-
-Ejercicio #10: CUBO Y CUARTA DE UN NUMERO
-Leer 10 números y obtener su cubo y su cuarta.
-
-var contador
-var numero
-var cubo
-var cuarta
 INICIO
-HACER
-	Ingresar numero
-	Leer numero
-	Proceso: contador=contador++
-	Proceso: cubo=numero*numero*numero
-	Proceso: cuarta=numero*numero*numero*numero
-	Display: "Cubo de ", numero, "es ", cubo
-	Display: "Cuarta de ", numero, "es", cuarta
-MIENTRAS
-	contador<=10
+declarar variables var h, var a, var b, var conth, var conta, var contb
+para(conth=5, hasta conth<=500, entonces conth=contb++)
+	h=conth * conth
+		para(conta=4, hasta conta<=500, entonces conta=contb++)
+		a=conta * conta
+			para(contb=3, hasta contb<=500, entonces contb=contb++)
+			b=contb * contb
+		
+			teorema=a + b
+			si (teorema=h) entonces
+			"escribe terna pitagótica", "hipotenusa=", conth, "a=", conta, "b=",contb
+			fin
+		fin
+	fin
+fin
 FIN
- 
 
 
 

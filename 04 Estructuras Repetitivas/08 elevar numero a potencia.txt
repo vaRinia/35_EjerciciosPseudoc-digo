@@ -2,4 +2,19 @@
 Ejercicio #8: ELEVAR UN NUMERO ENTERO A LA "N" POTENCIA
 Realizar el diagrama de flujo y pseudocodigo de un programa que permita elevar un número entero ingresado por teclado, a una potencia dada.
 
+var pot
+var num
 
+INICIO
+Entrada de datos: num, pot
+Decisión: Pot=0
+	VERDADERO: Display: num, "a la cero es igual a 1"
+		   fin
+	FALSO:
+	cont=1
+	R=num
+	MIENTRAS con menor a Po
+	R= R * num
+	cont = cont + 1
+Display: num, "a la", Po, "es igual a", R 
+FIN

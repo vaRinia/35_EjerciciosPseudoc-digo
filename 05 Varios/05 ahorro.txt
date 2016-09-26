@@ -1,41 +1,16 @@
 ﻿Ejercicio #5: Ahorro
-Se requiere un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero; además, 
-se requiere saber cuánto lleva ahorrado cada mes.
+Se requiere un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero; 
+además, se requiere saber cuánto lleva ahorrado cada mes.
 Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado
 
-
-Ejercicio #6: Mayores a 0
-Se requiere un algoritmo para determinar, de N cantidades, cuántas son menores o iguales a cero y cuántas mayores a cero.
-Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado.
-
-
-
-Ejercicio #7: Horas de trabajo
-Una empresa tiene el registro de las horas que trabaja diariamente un empleado durante la semana (seis días) y requiere determinar el total de éstas, 
-así como el sueldo que recibirá por las horas trabajadas.
-Realice un algoritmo para determinar esto y represéntelo mediante el diagrama de flujo y el pseudocódigo utilizando el ciclo apropiado.
-
-
-Ejercicio #8: Tiki Taka
-Un empleado de la tienda “Tiki Taka” realiza N ventas durante el día; se requiere saber cuántas de ellas: 
-• Fueron mayores a $1000, 
-• Cuántas fueron mayores a $500 pero menores o iguales a $1000 
-• Cuántas fueron menores o iguales a $500. 
-• Además, se requiere saber el monto de lo vendido en cada categoría y de forma global.
-Realice un algoritmo que permita determinar lo anterior y represéntelo mediante el diagrama de flujo y el pseudocódigoutilizando el ciclo apropiado
-
-
-
-
-Ejercicio #9: Mensualidades
-Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó $10, el segundo $20, el tercero $40 y así sucesivamente.
-Realice un algoritmo para determinar cuánto debe pagar mensualmente y el total de lo que pagó después de los 20 meses 
-y represéntelo mediante el diagrama de flujo y el pseudocódigo utilizando el ciclo apropiado.
-
-
-
-Ejercicio #10: Tienda de autoservicio
-La cadena de tiendas de autoservicio “El mandilón” cuenta con sucursales en C ciudades diferentes de la República, 
-en cada ciudad cuenta con T tiendas y cada tienda cuenta con N empleados, asimismo, cada una registra lo que vende de manera individual cada empleado, 
-cuánto fue lo que vendió cada tienda, cuánto se vendió en cada ciudad y cuánto recaudó la cadena en un solo día.
-Realice un algoritmo para determinar lo anterior y represéntelo mediante un diagrama de flujo, utilizando el ciclo apropiado.
+var mes
+var suma
+var i
+INICIO
+MIENTRAS i<=12
+	Display: "¿Cuánto ahorraste este mes?"
+	Leer mes
+	suma=suma+mes
+	i=i+1
+	Display: "Llevas ahorrado", suma
+FIN
