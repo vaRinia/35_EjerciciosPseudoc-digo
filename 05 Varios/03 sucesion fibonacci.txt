@@ -3,7 +3,7 @@ Realice un algoritmo para generar N elementos de la sucesión de Fibonacci (0, 1
 Realice el diagrama de flujo y el pseudocódigo para representarlo, utilizando el ciclo apropiado.
 
 var a=0
-var b=0
+var b=1
 var cont=2
 INICIO
 Display: "Escribir número de elementos requeridos"

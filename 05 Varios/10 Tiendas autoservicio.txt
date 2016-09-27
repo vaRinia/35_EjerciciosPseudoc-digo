@@ -7,5 +7,23 @@ Realice un algoritmo para determinar lo anterior y represéntelo mediante un dia
 ciudades C
 tiendas T
 empleados N
-venta total
-venta empleado
+
+venta empleado ve
+venta tienda vt
+venta ciudad vc
+venta total 
+
+INICIO
+pedir C (ciudades)
+PARA (i=1; i<=C; i++){
+	pedir T
+		PARA (j=1; j<=T; j++){
+			pedir N
+				PARA (k=1; k<=N;k++){
+					pedir ve
+					vt=vt+ve
+					}
+					imprimir vt
+				vc=vc+vt} imprimir vc
+				vtotal=vtotal+vc}
+imprimir vtotal

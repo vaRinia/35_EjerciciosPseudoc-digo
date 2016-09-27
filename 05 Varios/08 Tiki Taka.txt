@@ -25,15 +25,15 @@ var i
 var j
 var k
 INICIO
+MIENTRAS v>0
 Display: "Introducir monto de venta"
 Leer v
-MIENTRAS v>0
-	mientras: v>500
-		mientras: v>=1000
+	if: v>500
+		if: v>=1000
 			i=i+1, sumi=sumi+v
 		Falso: j=j+1, sumj=sumj+v
 	Falso: k=k+1, sumk=sumk+v
-fin del ciclo, regresar a introducir venta
+salir del ciclo
 total=sumi+sumj+sumk
 Display:
 	"Ventas mayores a $1,000", i, "Total", sumi
