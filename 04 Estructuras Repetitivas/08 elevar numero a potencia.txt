@@ -13,8 +13,8 @@ Decisión: Pot=0
 	FALSO:
 	cont=1
 	R=num
-	MIENTRAS con menor a Po
+	MIENTRAS cont menor a Pot
 	R= R * num
 	cont = cont + 1
-Display: num, "a la", Po, "es igual a", R 
+Display: num, "a la", Pot, "es igual a", R 
 FIN

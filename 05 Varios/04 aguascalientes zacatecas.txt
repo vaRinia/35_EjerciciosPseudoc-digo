@@ -9,7 +9,7 @@ un ciclo, sería ir sumando al que va en dirección a zacatecas y restando al qu
 iguales, los autos se encontraran:::
 
 
-PARA (ags != zac; ags=70, zac=150;)
+PARA (ags=70, zac=150; ags != zac;)
 	ags = ags + 1
 	zac = zac - 1
 Display: "Se encontrarán en el kilómetro", ags
